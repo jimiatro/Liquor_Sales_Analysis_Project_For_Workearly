@@ -3,9 +3,10 @@ This project is the final assignment for Reatcode Group - Workearly Greece, wher
 # Data Retrieval #
 I started by extracting the data from the SQL database provided, with MySQL Workbench , using the following query to select data between 2016 and 2019:
 
-`SELECT * FROM finance_liquor_sales
+```sql
+SELECT * FROM finance_liquor_sales
 WHERE date >= '2016-01-01' AND date <= '2019-12-31';`
-
+```
 # Data Cleanup #
 After exporting the data to an Excel file, i noticed some inconsistencies in the data, such as variations in the case of city names and extra digits in zip codes so i performed data cleaning and transformation using Power Query in Excel.
 
