@@ -9,6 +9,7 @@ WHERE date >= '2016-01-01' AND date <= '2019-12-31';`
 ```
 # Data Cleanup #
 After exporting the data to an Excel file, i noticed some inconsistencies in the data, such as variations in the case of city names and extra digits in zip codes so i performed data cleaning and transformation using Power Query in Excel and then i deleted the original table.
+
 ![Alt text](https://github.com/jimiatro/Liquor_Sales_Analysis_Project_For_Workearly/blob/main/Power%20Query.png)
 
 # Data Analysis #
